@@ -1,0 +1,13 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  position: relative;
+  margin: 5px 3px;
+}
+
+.status-bar__column:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>KokoaTalk</title>
+  </head>
+  <body class="chat-page">
+    <div class="chat-fixed">
+      <div class="status-bar status-bar--sky">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>11:11</span>
+        </div>
+        <div class="status-bar__column">
+          <span>11%</span>
+          <i class="fa-solid fa-battery-quarter fa-xl"></i>
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="chats.html">
+            <i class="fas fa-angle-left fa-xl"></i>
+          </a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">frog_tongue</h1>
+        </div>
+        <div class="alt-header__column">
+          <i class="fas fa-search fa-xl"></i>
+          <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+      </header>
+    </div>
+
+    <main class="main-screen main-screen--chat">
+      <div class="timestamp">Monday, November 11, 1111</div>
+
+      <div class="chat-message">
+        <img
+          class="chat-message__img"
+          src="https://blog.kakaocdn.net/dn/cdH0an/btq79vNdbwi/TQwGp08NjuWpYkFUOcwF51/img.jpg"
+        />
+        <div class="chat-message__content">
+          <span class="chat-message__name">frog_tongue</span>
+          <div class="chat-message__detail chat-message__detail--reception">
+            <div class="chat-message__message chat-message__message--reception">
+              Hi!
+            </div>
+            <span class="chat-message__time chat-message__time--reception"
+              >11:11</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-message chat-message--sending">
+        <div class="chat-message__content">
+          <div class="chat-message__detail chat-message__detail--sending">
+            <div class="chat-message__message chat-message__message--sending">
+              Wassup
+            </div>
+            <span class="chat-message__time chat-message__time--sending"
+              >11:11</span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="reply">
+      <i class="reply__attach fa-regular fa-square-plus fa-2xl"></i>
+      <form class="reply__form">
+        <input type="text" class="reply__content" />
+        <i class="reply__emoticon fa-regular fa-face-smile"></i>
+        <button class="reply__submit-btn">
+          <i class="reply__submit-icon fa-solid fa-arrow-up"></i>
+        </button>
+      </form>
+    </div>
+
+    <div class="not-mobile">
+      <span class="not-mobile__message"> Your screen is too big 😥 </span>
+    </div>
+  </body>
+</html>

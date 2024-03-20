@@ -1,0 +1,31 @@
+.alt-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--horizontal-space);
+}
+.alt-header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+/* .alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+} */
+.alt-header__column {
+  width: 33%;
+}
+.alt-header__column:first-child {
+  text-align: start;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+.alt-header__column:last-child {
+  text-align: end;
+}
+.alt-header__column:last-child i {
+  margin-left: 12px;
+}

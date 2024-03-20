@@ -1,0 +1,20 @@
+.not-mobile {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not-mobile__message {
+  font-size: 35px;
+  font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+  .not-mobile {
+    display: none;
+  }
+}

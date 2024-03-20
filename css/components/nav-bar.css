@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #f9f9fa;
+  border-top: 1px solid #e2e2e2;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+.nav__link {
+  color: #2f363e;
+  position: relative;
+}
+@keyframes messageNotifAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.nav__message-notif {
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+  animation: messageNotifAnimation 1.5s ease-in-out infinite;
+}
